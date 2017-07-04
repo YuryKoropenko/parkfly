@@ -1,16 +1,122 @@
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1199px) {
+  .h-reservation {
+    padding-left: 0;
+  }
+  .h-reservation__right {
+    padding-left: 15px;
+  }
+  .f-phone {
+    text-align: center;
+  }
   /**/
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
+  .header__bottom {
+    display: none;
+  }
+  .h-nav {
+    height: auto;
+    text-align: center;
+  }
+  .h-nav__list {
+    display: inline-block;
+  }
+  .h-nav__button {
+    display: inline-block;
+    float: none;
+  }
+  .h-logo {
+    text-align: center;
+  }
+  .h-phone {
+    text-align: center;
+  }
+  .header__h-phone {
+    padding: 15px 0;
+  }
+  .h-title {
+    padding-top: 15px;
+  }
+  .h-title__title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .h-title__description {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .h-title__description strong {
+    font-size: 40px;
+  }
+  .h-title__description {
+    margin-top: 15px;
+  }
+  .header {
+    height: auto;
+    padding-bottom: 24px;
+  }
+  .f-button {
+    text-align: center;
+  }
   /**/
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .popup-reservation {
+    padding: 28px 10px;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    transform: none;
+    -webkit-transform: none;
+  }
+  .h-form__input input {
+    height: 50px;
+  }
+  .h-reservation__button input {
+    height: 50px;
+  }
+  .popup-reservation__close {
+    right: 0;
+    top: -20px;
+  }
+  .p-priceList__button button {
+    width: 100%;
+  }
+  .page__map iframe {
+    height: 340px;
+  }
+  .h-phone__text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .f-button {
+    text-align: center;
+  }
+  .f-nav {
+    padding: 16px 0;
+  }
+  .p-section__title-wp {
+    padding: 45px 0;
+  }
+  .p-section__description-wp {
+    margin-top: -25px;
+  }
+  .h-phone__text {
+    width: 100%;
+    text-align: center;
+  }
+  .p-text__title {
+    padding-top: 45px;
+  }
+  .page__white {
+    padding-bottom: 45px;
+  }
   /**/
 }
 
