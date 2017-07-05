@@ -67,5 +67,15 @@ $(document).ready(function() {
 		$('.popup-reservation').fadeOut();
 	});
 
+	/*toogle-menu*/
+	$('.h-nav__mob-button').on('click', function() {
+		$(this).parent().children('.h-nav').slideToggle();
+		$(document).click(function(event) {
+			if ($(event.target).closest('.h-nav').length) return;
+				$('.h-nav').slideUp();
+				event.stopPropagation();
+			});
+		return false;
+	});
 
 });

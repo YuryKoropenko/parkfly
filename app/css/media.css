@@ -117,6 +117,70 @@
   .page__white {
     padding-bottom: 45px;
   }
+  .h-nav__mob-button {
+    font-size: 40px;
+    line-height: 70px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+  }
+  .h-nav {
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    display: none;
+  }
+  .h-nav__list {
+    float: none;
+    width: 100%;
+  }
+  .h-nav__item {
+    display: block;
+    width: 100%;
+  }
+  .h-nav__link {
+    display: block;
+    width: 100%;
+  }
+  .header__h-nav {
+    height: 70px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0 24px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+  .p-section__title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .p-section__description {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .p-advantages__title {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .p-advantages__description {
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 16px;
+  }
+  .p-priceList__right span {
+    font-size: 16px;
+    line-height: 36px;
+  }
+  .p-priceList__left span {
+    font-size: 22px;
+    line-height: 32px;
+  }
   /**/
 }
 
@@ -142,7 +206,10 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
+  .h-nav__mob-button {
+    display: none;
+  }
   /**/
 }
 
