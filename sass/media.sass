@@ -98,6 +98,7 @@
 		background-color: transparent
 		border: none
 		display: inline-block
+		float: left
 	.h-nav
 		z-index: 10
 		position: absolute
@@ -141,6 +142,11 @@
 	.p-priceList__left span
 		font-size: 22px
 		line-height: 32px
+	.h-nav__button
+		display: none
+	.h-nav__button-mob
+		display: block !important
+		float: right
 	/**/
 
 
@@ -169,6 +175,8 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 769px)
 	.h-nav__mob-button
+		display: none
+	.h-nav__button-mob
 		display: none
 	/**/
 
